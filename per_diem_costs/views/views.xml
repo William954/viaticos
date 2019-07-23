@@ -1,0 +1,23 @@
+<odoo>
+  <data>
+<!-- Campos en Modulo Expenses o Gastos -->
+      <record id="inherit_field" model="ir.ui.view">
+              <field name="name">inherit.field</field>
+              <field name="model">hr.expense.sheet</field>
+              <field name="inherit_id" ref="hr_expense.view_hr_expense_sheet_form"/>
+              <field name="arch" type="xml">
+                <xpath expr="//form[1]/sheet[1]/group[1]" position="inside">
+                  <group>
+                    <field name="delivery_amount" />
+                    <field name="prove_amount" />
+                    <field name="returned" />
+                    <field name="diferencia" />
+                  </group>
+                </xpath>
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="approved" />
+                </xpath>
+              </field>
+      </record>
+  </data>
+</odoo>

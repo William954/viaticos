@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_per_diem_costs_per_diem_costs,per_diem_costs.per_diem_costs,model_per_diem_costs_per_diem_costs,,1,0,0,0
