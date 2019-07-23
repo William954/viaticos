@@ -11,7 +11,7 @@
                     <field name="delivery_amount" />
                     <field name="prove_amount" />
                     <field name="returned" />
-                    <field name="diferencia" />
+                    <field name="diferency" />
                   </group>
                 </xpath>
                 <xpath expr="//field[@name='user_id']" position="after">
